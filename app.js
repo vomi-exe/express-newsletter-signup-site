@@ -38,8 +38,8 @@ app.post("/", function(req, res) {
     url: "https://us1.api.mailchimp.com/3.0/lists/be8198d39f",
     method: "POST",
     'auth': {
-      'user': process.env.USERNAME,
-      'pass': process.env.API_KEY,
+      'user': process.env.VALUE,
+      'pass': process.env.KEY,
     },
     body : JSONData,
   };
